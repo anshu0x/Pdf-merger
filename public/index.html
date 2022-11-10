@@ -20,7 +20,7 @@
             <form action="/merge" method="post" enctype="multipart/form-data">
                 <label>Select the pdf you want to merge !</label>
                 <!--  name shouldbe same as multer fieldname   -->
-                <input type="file" name="pdfs" multiple class="form-control" accept=".pdf" />
+                <input required type="file" name="pdfs" multiple class="form-control" accept=".pdf" />
                 <br><br>
                 <button type="submit">Submit</button>
         </div>
